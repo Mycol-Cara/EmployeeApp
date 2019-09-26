@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace EmployeeManagement
 {
-    class Employee
+    class Manager : Employee
     {
-        public string EmployeeName;
-        public int EmployeeNum;
+        private List<Employee> employees = new List<Employee>();
+
     }
 }
