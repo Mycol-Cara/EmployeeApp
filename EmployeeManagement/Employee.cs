@@ -8,7 +8,12 @@ namespace EmployeeManagement
 {
     class Employee
     {
-        public string EmployeeName;
-        public int EmployeeNum;
+        public string EmployeeName { get; set; }
+        public int EmployeeNum
+        {
+            get { return EmployeeNum; }
+            set { EmployeeNum = value; }
+        }
+
     }
 }
